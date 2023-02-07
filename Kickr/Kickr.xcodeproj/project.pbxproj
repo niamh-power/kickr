@@ -18,6 +18,7 @@
 		71224AE42992EF0A004DF98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71224ABA2992EF0A004DF98A /* Assets.xcassets */; };
 		71224AE52992EF0A004DF98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71224ABA2992EF0A004DF98A /* Assets.xcassets */; };
 		71224AF62992EF76004DF98A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71224AF52992EF76004DF98A /* TimerView.swift */; };
+		71224AF82992F1F5004DF98A /* KickCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71224AF72992F1F5004DF98A /* KickCountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		71224ADC2992EF0A004DF98A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		71224ADE2992EF0A004DF98A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		71224AF52992EF76004DF98A /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		71224AF72992F1F5004DF98A /* KickCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickCountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				71224AB82992EF08004DF98A /* KickrApp.swift */,
 				71224AB92992EF08004DF98A /* ContentView.swift */,
 				71224ABA2992EF0A004DF98A /* Assets.xcassets */,
+				71224AF72992F1F5004DF98A /* KickCountView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71224AF82992F1F5004DF98A /* KickCountView.swift in Sources */,
 				71224AF62992EF76004DF98A /* TimerView.swift in Sources */,
 				71224AE22992EF0A004DF98A /* ContentView.swift in Sources */,
 				71224AE02992EF0A004DF98A /* KickrApp.swift in Sources */,
