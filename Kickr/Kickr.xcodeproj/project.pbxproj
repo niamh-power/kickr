@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71224AD12992EF0A004DF98A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71224AD02992EF0A004DF98A /* Tests_iOS.swift */; };
+		71224AD32992EF0A004DF98A /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71224AD22992EF0A004DF98A /* Tests_iOSLaunchTests.swift */; };
+		71224ADD2992EF0A004DF98A /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71224ADC2992EF0A004DF98A /* Tests_macOS.swift */; };
+		71224ADF2992EF0A004DF98A /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71224ADE2992EF0A004DF98A /* Tests_macOSLaunchTests.swift */; };
+		71224AE02992EF0A004DF98A /* KickrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71224AB82992EF08004DF98A /* KickrApp.swift */; };
+		71224AE12992EF0A004DF98A /* KickrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71224AB82992EF08004DF98A /* KickrApp.swift */; };
+		71224AE22992EF0A004DF98A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71224AB92992EF08004DF98A /* ContentView.swift */; };
+		71224AE32992EF0A004DF98A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71224AB92992EF08004DF98A /* ContentView.swift */; };
+		71224AE42992EF0A004DF98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71224ABA2992EF0A004DF98A /* Assets.xcassets */; };
+		71224AE52992EF0A004DF98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71224ABA2992EF0A004DF98A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71224ACD2992EF0A004DF98A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71224AB32992EF08004DF98A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71224ABE2992EF0A004DF98A;
+			remoteInfo = "Kickr (iOS)";
+		};
+		71224AD92992EF0A004DF98A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71224AB32992EF08004DF98A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71224AC42992EF0A004DF98A;
+			remoteInfo = "Kickr (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71224AB82992EF08004DF98A /* KickrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickrApp.swift; sourceTree = "<group>"; };
+		71224AB92992EF08004DF98A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71224ABA2992EF0A004DF98A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71224ABF2992EF0A004DF98A /* Kickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71224AC52992EF0A004DF98A /* Kickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71224AC72992EF0A004DF98A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		71224ACC2992EF0A004DF98A /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71224AD02992EF0A004DF98A /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		71224AD22992EF0A004DF98A /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		71224AD82992EF0A004DF98A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71224ADC2992EF0A004DF98A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		71224ADE2992EF0A004DF98A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71224ABC2992EF0A004DF98A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71224AC22992EF0A004DF98A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71224AC92992EF0A004DF98A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71224AD52992EF0A004DF98A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71224AB22992EF08004DF98A = {
+			isa = PBXGroup;
+			children = (
+				71224AB72992EF08004DF98A /* Shared */,
+				71224AC62992EF0A004DF98A /* macOS */,
+				71224ACF2992EF0A004DF98A /* Tests iOS */,
+				71224ADB2992EF0A004DF98A /* Tests macOS */,
+				71224AC02992EF0A004DF98A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71224AB72992EF08004DF98A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				71224AB82992EF08004DF98A /* KickrApp.swift */,
+				71224AB92992EF08004DF98A /* ContentView.swift */,
+				71224ABA2992EF0A004DF98A /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		71224AC02992EF0A004DF98A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71224ABF2992EF0A004DF98A /* Kickr.app */,
+				71224AC52992EF0A004DF98A /* Kickr.app */,
+				71224ACC2992EF0A004DF98A /* Tests iOS.xctest */,
+				71224AD82992EF0A004DF98A /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71224AC62992EF0A004DF98A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				71224AC72992EF0A004DF98A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		71224ACF2992EF0A004DF98A /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				71224AD02992EF0A004DF98A /* Tests_iOS.swift */,
+				71224AD22992EF0A004DF98A /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		71224ADB2992EF0A004DF98A /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				71224ADC2992EF0A004DF98A /* Tests_macOS.swift */,
+				71224ADE2992EF0A004DF98A /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71224ABE2992EF0A004DF98A /* Kickr (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71224AE82992EF0A004DF98A /* Build configuration list for PBXNativeTarget "Kickr (iOS)" */;
+			buildPhases = (
+				71224ABB2992EF0A004DF98A /* Sources */,
+				71224ABC2992EF0A004DF98A /* Frameworks */,
+				71224ABD2992EF0A004DF98A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kickr (iOS)";
+			productName = "Kickr (iOS)";
+			productReference = 71224ABF2992EF0A004DF98A /* Kickr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71224AC42992EF0A004DF98A /* Kickr (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71224AEB2992EF0A004DF98A /* Build configuration list for PBXNativeTarget "Kickr (macOS)" */;
+			buildPhases = (
+				71224AC12992EF0A004DF98A /* Sources */,
+				71224AC22992EF0A004DF98A /* Frameworks */,
+				71224AC32992EF0A004DF98A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kickr (macOS)";
+			productName = "Kickr (macOS)";
+			productReference = 71224AC52992EF0A004DF98A /* Kickr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71224ACB2992EF0A004DF98A /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71224AEE2992EF0A004DF98A /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				71224AC82992EF0A004DF98A /* Sources */,
+				71224AC92992EF0A004DF98A /* Frameworks */,
+				71224ACA2992EF0A004DF98A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71224ACE2992EF0A004DF98A /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 71224ACC2992EF0A004DF98A /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		71224AD72992EF0A004DF98A /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71224AF12992EF0A004DF98A /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				71224AD42992EF0A004DF98A /* Sources */,
+				71224AD52992EF0A004DF98A /* Frameworks */,
+				71224AD62992EF0A004DF98A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71224ADA2992EF0A004DF98A /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 71224AD82992EF0A004DF98A /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71224AB32992EF08004DF98A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					71224ABE2992EF0A004DF98A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					71224AC42992EF0A004DF98A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					71224ACB2992EF0A004DF98A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 71224ABE2992EF0A004DF98A;
+					};
+					71224AD72992EF0A004DF98A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 71224AC42992EF0A004DF98A;
+					};
+				};
+			};
+			buildConfigurationList = 71224AB62992EF08004DF98A /* Build configuration list for PBXProject "Kickr" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71224AB22992EF08004DF98A;
+			productRefGroup = 71224AC02992EF0A004DF98A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71224ABE2992EF0A004DF98A /* Kickr (iOS) */,
+				71224AC42992EF0A004DF98A /* Kickr (macOS) */,
+				71224ACB2992EF0A004DF98A /* Tests iOS */,
+				71224AD72992EF0A004DF98A /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71224ABD2992EF0A004DF98A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71224AE42992EF0A004DF98A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71224AC32992EF0A004DF98A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71224AE52992EF0A004DF98A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71224ACA2992EF0A004DF98A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71224AD62992EF0A004DF98A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71224ABB2992EF0A004DF98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71224AE22992EF0A004DF98A /* ContentView.swift in Sources */,
+				71224AE02992EF0A004DF98A /* KickrApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71224AC12992EF0A004DF98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71224AE32992EF0A004DF98A /* ContentView.swift in Sources */,
+				71224AE12992EF0A004DF98A /* KickrApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71224AC82992EF0A004DF98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71224AD32992EF0A004DF98A /* Tests_iOSLaunchTests.swift in Sources */,
+				71224AD12992EF0A004DF98A /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71224AD42992EF0A004DF98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71224ADF2992EF0A004DF98A /* Tests_macOSLaunchTests.swift in Sources */,
+				71224ADD2992EF0A004DF98A /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71224ACE2992EF0A004DF98A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71224ABE2992EF0A004DF98A /* Kickr (iOS) */;
+			targetProxy = 71224ACD2992EF0A004DF98A /* PBXContainerItemProxy */;
+		};
+		71224ADA2992EF0A004DF98A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71224AC42992EF0A004DF98A /* Kickr (macOS) */;
+			targetProxy = 71224AD92992EF0A004DF98A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71224AE62992EF0A004DF98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71224AE72992EF0A004DF98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		71224AE92992EF0A004DF98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGMSUNR6M5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = niamhpower.Kickr;
+				PRODUCT_NAME = Kickr;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71224AEA2992EF0A004DF98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGMSUNR6M5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = niamhpower.Kickr;
+				PRODUCT_NAME = Kickr;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71224AEC2992EF0A004DF98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGMSUNR6M5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = niamhpower.Kickr;
+				PRODUCT_NAME = Kickr;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		71224AED2992EF0A004DF98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGMSUNR6M5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = niamhpower.Kickr;
+				PRODUCT_NAME = Kickr;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		71224AEF2992EF0A004DF98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGMSUNR6M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "niamhpower.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kickr (iOS)";
+			};
+			name = Debug;
+		};
+		71224AF02992EF0A004DF98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGMSUNR6M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "niamhpower.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kickr (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71224AF22992EF0A004DF98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGMSUNR6M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "niamhpower.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Kickr (macOS)";
+			};
+			name = Debug;
+		};
+		71224AF32992EF0A004DF98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGMSUNR6M5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "niamhpower.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Kickr (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71224AB62992EF08004DF98A /* Build configuration list for PBXProject "Kickr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71224AE62992EF0A004DF98A /* Debug */,
+				71224AE72992EF0A004DF98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71224AE82992EF0A004DF98A /* Build configuration list for PBXNativeTarget "Kickr (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71224AE92992EF0A004DF98A /* Debug */,
+				71224AEA2992EF0A004DF98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71224AEB2992EF0A004DF98A /* Build configuration list for PBXNativeTarget "Kickr (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71224AEC2992EF0A004DF98A /* Debug */,
+				71224AED2992EF0A004DF98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71224AEE2992EF0A004DF98A /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71224AEF2992EF0A004DF98A /* Debug */,
+				71224AF02992EF0A004DF98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71224AF12992EF0A004DF98A /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71224AF22992EF0A004DF98A /* Debug */,
+				71224AF32992EF0A004DF98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71224AB32992EF08004DF98A /* Project object */;
+}
