@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct TimerView: View {
-    @State var isRunning = false
+    @State private var isRunning = false
     @State private var timerString = "0.00"
     @State private var start = Date()
     @State private var timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    
+    @Binding var duration: Double
     
     var body: some View {
         Text(self.timerString)
@@ -37,10 +39,15 @@ struct TimerView: View {
     }
     
     func stopTimer() {
+        duration = Date().timeIntervalSince(start)
         self.timer.upstream.connect().cancel()
     }
     
     func startTimer() {
         self.timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
+    }
+    
+    func resetTimer() {
+        
     }
 }

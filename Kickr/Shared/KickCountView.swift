@@ -11,7 +11,7 @@ import SwiftUI
 // https://anthonycodesofficial.medium.com/swiftui-tutorial-how-to-create-a-circle-button-using-neumorphic-design-5a1aa40bb14b
 
 struct KickCountView: View {
-    @State var count = 0
+    @Binding var count: Int
     @State var buttonTapped = false
     @State var buttonPressed = false
     let impact = UIImpactFeedbackGenerator(style: .soft)
