@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        NavigationView {
         ZStack {
             Rectangle()
                 .fill(Color("Background"))
@@ -20,6 +21,9 @@ struct ContentView: View {
                 KickCountView()
             }
         }
+        .navigationTitle("Kickr")
+        .navigationBarTitleDisplayMode(.inline)
+    }
     }
 }
 
