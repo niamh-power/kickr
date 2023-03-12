@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct Session: Identifiable {
+struct Session: Identifiable, Equatable {
     let id = UUID()
-    let count: Int
-    let duration: Double
+    var count: Int
+    var duration: Double
+    var isActive: Bool
     let date: Date
 }
 
 struct ContentView: View {
-    @State var count = 0
-    @State var duration = 0.0
     @State var sessions: [Session] = []
-    
+    @State var currentSession: Session = Session(count: 0, duration: 0, isActive: false, date: Date())
+        
     var body: some View {
         NavigationView {
         ZStack {
@@ -28,16 +28,18 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
             
             VStack(alignment: .center, spacing: 30) {
-                TimerView(duration: self.$duration)
-                KickCountView(count: self.$count)
+                TimerView(currentSession: self.$currentSession)
+                KickCountView(currentSession: self.$currentSession)
                 Button {
-                    sessions.append(Session(count: count, duration: duration, date: Date()))
-                } label: {
+                    sessions.append(currentSession)
+                    currentSession = Session(count: 0, duration: 0, isActive: false, date: Date())
+                    
+                                    } label: {
                     Text("Save Session")
                 }
                 
                 ForEach(sessions) { session in
-                    Text("\(session.count) kicks")
+                    Text("\(session.count) kicks, \(session.duration.hourMinuteSecondMS)")
                 }
             }
         }

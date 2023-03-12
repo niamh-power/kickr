@@ -11,14 +11,14 @@ import SwiftUI
 // https://anthonycodesofficial.medium.com/swiftui-tutorial-how-to-create-a-circle-button-using-neumorphic-design-5a1aa40bb14b
 
 struct KickCountView: View {
-    @Binding var count: Int
+    @Binding var currentSession: Session
     @State var buttonTapped = false
     @State var buttonPressed = false
     let impact = UIImpactFeedbackGenerator(style: .soft)
 
     var body: some View {
         VStack(alignment: .center, spacing: 50) {
-            Text("Count: \(count)")
+            Text("Count: \(currentSession.count)")
             ZStack {
                 Image(systemName: "plus")
                     .font(.system(size: 40, weight: .light))
@@ -38,7 +38,7 @@ struct KickCountView: View {
             .scaleEffect(buttonTapped ? 1.1 : 1)
             .onTapGesture(count: 1) {
                 impact.impactOccurred()
-                count += 1
+                currentSession.count += 1
                 self.buttonTapped.toggle()
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                     self.buttonTapped = false
